@@ -1,12 +1,70 @@
 .home-section{
-    background-color: #FFF2D7;
+    background-color: #ddb497;
+}
+
+h1{
+    color: #67595E;
+}
+
+.section-break{
+    border: none;
+    border-bottom: none;
+    margin: 50px auto;
+}
+
+/**** Images ****/
+.profile{
+    border-radius: 50%;
 }
 
 
 /**** Navbar ****/
-.nav-pills .nav-link.active { 
-    background-color: #F98866;
+
+.nav .active{ 
+    color: white !important;
+}
+
+.nav-link{
+    color: #67595E;
+}
+
+.nav-link:hover{
+    color: #a6704e !important;
 }
 
 /**** Buttons ****/
+.btn{
+    background-color:#ddb497;
+    border-color: #ddb497;
+    color: white;
+}
+
+.btn-outline-info:hover{
+    color: white !important;
+    background-color: #a6704e !important;
+    border-color: #a6704e !important;
+
+}
+
+.btn-lg:hover{
+    color: white !important;
+    background-color: #a6704e !important;
+    border-color: #a6704e !important;
+}
+
+/**** Projects ****/
+
+.card{
+    border-color:#ddb497;
+}
+
+/**** Contact ****/
+#Contact{
+    margin: 100px 0;
+}
+/**** Footer ****/
+#Footer{
+    background-color: #ddb497;
+    padding: 50px 0 20px;
+}
 
